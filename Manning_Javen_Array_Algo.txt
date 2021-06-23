@@ -1,0 +1,18 @@
+Challenge 1: Print values and sum
+
+var sum = 0
+var testArr = [6, 3, 5, 1, 2, 4]
+for(var num = 0; num < testArr.length; num = num + 1) {
+    sum += testArr[num];
+    console.log("Num: " + testArr[num], ("Sum: ") + sum);
+}
+
+
+Challenge 2: Value * position
+
+var sum = 0;
+var testArr = [6, 3, 5, 1, 2, 4];
+for(var i = 0; i < testArr.length; i++) {
+    sum = testArr[i] * testArr[i];
+    console.log(sum);
+}
